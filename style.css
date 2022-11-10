@@ -89,6 +89,10 @@ header{
     border: 2px solid pink;
 }
 
+#benchPressImage, #inclinePressImage, #dumbbellPressImage, #dumbbellFliesImage{
+    height: 100%;
+    width: 100%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
