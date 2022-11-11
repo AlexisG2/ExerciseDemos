@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header{
+    height: 15%;
+    width: 100%;
+    border: 2px solid green;
+}
+
+.bigSec{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.choicesSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+}
+
+
+.chest, .back, .arms, .legs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 100%;
+    border: 2px solid olive;
+}
+
+#benchPress, #inclinePress, #dumbbellPress, #dumbbellflies{
+    height: 90%;
+    width: 20%;
+    border: 2px solid blue;
+}
+
+.imageSec{
+    height: 100%;
+    width: 50%;
+    border: 2px solid brown;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
