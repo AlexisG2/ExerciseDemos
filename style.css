@@ -58,7 +58,7 @@ header{
 }
 
 
-.chest, .back, .arms, .legs{
+.chest, .back, .legs, .arms{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,6 +93,7 @@ header{
     height: 100%;
     width: 100%;
 }
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
